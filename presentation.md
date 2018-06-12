@@ -43,6 +43,10 @@ this presentation and demo code available at:
 
 https://github.com/mk30/regl-bmore
 
+to run demo files, install https://www.npmjs.com/package/budo
+
+`budo index.js`
+
 ---
 
 this slideshow has been presented with https://github.com/substack/xslide
