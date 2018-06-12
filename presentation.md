@@ -26,6 +26,7 @@ bits.coop
 * https://www.npmjs.com/package/glsl-noise
 * https://www.npmjs.com/package/regl-feedback
 * https://www.npmjs.com/package/icosphere
+* https://www.npmjs.com/package/resl
 
 ---
 
