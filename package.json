@@ -1,0 +1,29 @@
+{
+  "name": "regl-bmore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "angle-normals": "^1.0.0",
+    "gl-mat4": "^1.1.4",
+    "gl-vec2": "^1.0.0",
+    "gl-vec3": "^1.0.3",
+    "glsl-curl-noise": "0.0.4",
+    "glsl-hsl2rgb": "^1.1.0",
+    "glsl-noise": "0.0.0",
+    "glslify": "^6.0.1",
+    "icosphere": "^1.0.0",
+    "regl": "^1.1.1",
+    "regl-feedback": "^1.0.0"
+  }
+}
