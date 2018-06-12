@@ -5,7 +5,6 @@ var camera = require('regl-camera')(regl, {
 })
 var mat4 = require('gl-mat4')
 var vec3 = require('gl-vec3')
-var anormals = require('angle-normals')
 
 function makesphere (regl) {
   var sphere = require('icosphere')(3)
@@ -13,8 +12,7 @@ function makesphere (regl) {
   return regl({
     frag: `
       precision mediump float;
-      uniform float time;
-      varying vec3 vnorm, vpos;
+      varying vec3 vpos;
       void main () {
         gl_FragColor = vec4(vpos, 1.0);
       }
@@ -22,18 +20,15 @@ function makesphere (regl) {
     vert: `
       precision mediump float;
       uniform mat4 projection, view, model;
-      uniform float time;
       attribute vec3 position, normal;
-      varying vec3 vnorm, vpos;
+      varying vec3 vpos;
       void main () {
-        vnorm = normal;
         vpos = position;
         gl_Position = projection * view * model * vec4(position,1);
       }
     `,
     attributes: {
-      position: sphere.positions,
-      normal: anormals(sphere.cells, sphere.positions)
+      position: sphere.positions
     },
     uniforms: {
       model: mat4.identity(model),

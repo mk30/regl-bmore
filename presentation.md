@@ -1,9 +1,11 @@
 # regl: a webgl framework
 
-## marina kukso
-## bits.coop
+@marinakukso
+bits.coop
 
 ---
+
+# key features
 
 * handles a lot of the webgl required to set up a project
 * gets you working in the shader code
@@ -29,7 +31,7 @@ https://www.npmjs.com/package/icosphere
 
 # continue your learning!
 
-regl.party
+https://github.com/regl-project/regl
 http://rickyreusser.com/2016/12/07/from-nothing-to-something-in-webgl/
 https://kitties.neocities.org/meshtutorial.html
 webgl talk by substack - https://www.youtube.com/watch?v=Aq7diSfU9Cc 
