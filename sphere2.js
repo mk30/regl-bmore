@@ -1,4 +1,3 @@
-var glsl = require('glslify')
 var regl = require('regl')()
 var camera = require('regl-camera')(regl, {
   distance: 4, far: 100
