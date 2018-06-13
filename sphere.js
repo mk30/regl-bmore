@@ -33,7 +33,7 @@ function makesphere (regl) {
       model: mat4.identity(model),
       time: regl.context('time')
     },
-    primitive: "triangles",
+    primitive: "lines",
     elements: sphere.cells
   })
 }
