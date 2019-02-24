@@ -33,7 +33,7 @@ bits.coop
 # continue your learning!
 
 * https://github.com/regl-project/regl
-* http://rickyreusser.com/2016/12/07/from-nothing-to-something-in-webgl/
+* https://rreusser.github.io/from-nothing-to-something-in-webgl-with-regl/
 * https://kitties.neocities.org/meshtutorial.html
 * webgl talk by substack - https://www.youtube.com/watch?v=Aq7diSfU9Cc 
 * regl talk by mikola lysenko - https://www.youtube.com/watch?v=ZC6N6An5FVY
